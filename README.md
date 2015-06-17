@@ -1,14 +1,14 @@
-ĞÂÔöÎÄ¼ş£º
+æ–°å¢æ–‡ä»¶ï¼š
 
 	git add *
 	
 	git commit -m 'tip:add test1.txt'
 	
-	git remote add origin http://xxxx(µÚÒ»´Î²ÅÓÃ£¬Ö®ºó²»Òª)
+	git remote add origin http://xxxx(ç¬¬ä¸€æ¬¡æ‰ç”¨ï¼Œä¹‹åä¸è¦)
 	
 	git push -n origin master
 	
-É¾³ıÎÄ¼ş£º
+åˆ é™¤æ–‡ä»¶ï¼š
 
 	git rm test1.txt
 	
@@ -16,7 +16,7 @@
 	
 	git push -n origin master	
 	
-ĞŞ¸ÄÎÄ¼ş£º
+ä¿®æ”¹æ–‡ä»¶ï¼š
 
 	git add *
 	
