@@ -2,6 +2,11 @@ body{
 	background-color: black;
 }
 
+.chinamap{
+	margin: 0 auto;
+	width: 80%;
+}
+
 #chinamap{
 	margin: 0 auto;
 	width: 80%;

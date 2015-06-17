@@ -22,11 +22,11 @@
 		legend: {
 			orient: 'vertical',
 			x: 'left',
-			data: ['北京 Top10', '上海 Top10', '广州 Top10'],
+			data: ['北京', '上海', '广州'],
 			selectedMode: 'single',
 			selected: {
-				'上海 Top10': false,
-				'广州 Top10': false
+				'上海': false,
+				'广州': false
 			},
 			textStyle: {
 				color: '#fff'
