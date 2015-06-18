@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+.test{
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
