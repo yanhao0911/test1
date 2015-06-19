@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Circle</title>
+		<link rel="stylesheet" href="css/voronoi.css" />
+		<style>
+			rect {
+				fill: #fff;
+				stroke: #000;
+				stroke-width: .7px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div class="voronoi">
+				<h3><a href="../../index.html">返回首页</a></h3>
+			</div>
+			<div id="voronoi">
+				<svg width="960" height="500">
+					<defs>
+						<clipPath id="clip-upper">
+							<rect width="960" height="250" x="-480" y="-250"></rect>
+						</clipPath>
+						<clipPath id="clip-lower">
+							<rect width="960" height="250" x="-480" y="0"></rect>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#clip-upper)" transform="translate(480,250)"></g>
+					<g clip-path="url(#clip-lower)" transform="translate(480,250)"></g>
+				</svg>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="../../lib/script/jquery.js"></script>
+	<script type="text/javascript" src="../../lib/script/d3.js"></script>
+	<script type="text/javascript" src="js/circle.js"></script>
+
+</html>

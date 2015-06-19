@@ -1,3 +1,7 @@
+/**
+ * yanhao
+ * 2015-06-19
+ */
 (function() {
 	var dom = {
 		'chinaMapChart': '',
